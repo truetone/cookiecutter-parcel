@@ -1,0 +1,14 @@
+{
+  "name": "{{ cookiecutter.project_name }}",
+  "version": "{{ cookiecutter.version }}",
+  "description": "{{ cookiecutter.project_short_description }}",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "author": "{{ cookiecutter.full_name }}",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
